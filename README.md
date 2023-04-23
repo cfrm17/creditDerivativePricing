@@ -162,6 +162,10 @@ The default correlation model and four credit derivative models contingent on th
 
 The model and the normal copula model are different in theory and implementation. The methodology employed in the model is based on multivariate Poisson process, which is simple and robust in predicting correlated default events. Tests have shown that the model meets the perquisites and theoretical limits for default correlation models. In fact the default correlation model has been the centre of research for a long time and every model has advantages and disadvantages.  For a typical collateral pool observed in the industry, most models behave similarly with a slight quantitative difference in predicting joint default probability within a typical 5-year term upon which most current credit derivates are dependent. 
 
-In the model the single name CDS and the FTD basket are priced using the closed form solutions while the NofM baskets and the FirstLoss are priced by employing MC simulation.  In order to verify these pricing model (see https://finpricing.com/lib/EqCallable.html), various tests are designed which include comparing the results between the MC simulation and the closed form solution whenever available, verifying the trend of the model with business rational and theoretical limit, and cross checking by replicating one trade with another trade model whenever available. The test results indicate that the pricing models are implemented correctly and meet the purpose they are deemed to serve.
+In the model the single name CDS and the FTD basket are priced using the closed form solutions while the NofM baskets and the FirstLoss are priced by employing MC simulation.  In order to verify these pricing model, various tests are designed which include comparing the results between the MC simulation and the closed form solution whenever available, verifying the trend of the model with business rational and theoretical limit, and cross checking by replicating one trade with another trade model whenever available. The test results indicate that the pricing models are implemented correctly and meet the purpose they are deemed to serve.
 
+
+Reference:
+
+https://finpricing.com/knowledge.html
 
